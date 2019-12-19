@@ -1,4 +1,5 @@
 class User
+  has_many :rents
   include Mongoid::Document
   validates :email, format: { with: URI::MailTo::EMAIL_REGEXP }
   validates :name, :last_name, :mobile_phone, :work_place, presence: true

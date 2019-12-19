@@ -249,7 +249,7 @@ DEPENDENCIES
   mongoid-rspec
   puma (~> 4.1)
   rails (~> 6.0.1)
-  rspec-rails (>= 3.9.0)
+  rspec-rails (> 3.9.0)
   sass-rails (>= 6)
   selenium-webdriver
   spring
